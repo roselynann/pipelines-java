@@ -18,3 +18,73 @@ steps:
         # Write your PowerShell commands here.
         
         Write-Host "Hello World Sage 2 | Job 1 | Step 1"
+  - task: PowerShell@2
+    displayName: Marketplace_Validation
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        
+        Write-Host "Hello World Sage 2 | Job 1 | Step 1"
+  - task: PowerShell@2
+    displayName: Execution
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        
+        Write-Host "Hello World Sage 2 | Job 1 | Step 1"
+  - task: PowerShell@2
+    displayName: Active_Alert_Evaluation
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        
+        Write-Host "Hello World Log_Collection"
+  - task: PowerShell@2
+    displayName: Log_Collection
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        
+        Write-Host "Hello World Generate_Report"
+  - task: PowerShell@2
+    displayName: Generate_Report
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        
+        Write-Host "Hello World Power_BI"
+  - task: PowerShell@2
+    displayName: Power_BI
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        
+        Write-Host "Hello World Email"
+  - task: PowerShell@2
+    displayName: Email
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        
+        Write-Host "Hello World Test_Azure_StackS"
+  - task: PowerShell@2
+    displayName: Test_Azure_Stack
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        Write-Host "Hello World Sage 2 | Job 1 | Step 1"
+  - task: PowerShell@2
+    displayName: Cleanup
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your PowerShell commands here.
+        Write-Host "Hello World Cleanup"
