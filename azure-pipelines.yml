@@ -14,10 +14,8 @@ steps:
     displayName: Configuration
     inputs:
       targetType: 'inline'
-      script: |
-        # Write your PowerShell commands here.
-        
-        Write-Host "Hello World Sage 2 | Job 1 | Step 1"
+      script: echo $(var)
+      
   - task: PowerShell@2
     displayName: Marketplace_Validation
     inputs:
